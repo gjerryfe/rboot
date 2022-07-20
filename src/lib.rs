@@ -14,8 +14,8 @@ pub struct BootInfo {
     pub memory_map: Vec<&'static MemoryDescriptor>,
     /// The offset into the virtual address space where the physical memory is mapped.
     pub physical_memory_offset: u64,
-    /// The graphic output information
-    pub graphic_info: GraphicInfo,
+    // The graphic output information
+    //pub graphic_info: GraphicInfo,
     /// Physical address of ACPI2 RSDP
     pub acpi2_rsdp_addr: u64,
     /// Physical address of SMBIOS

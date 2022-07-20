@@ -141,7 +141,7 @@ fn efi_main(image: uefi::Handle, mut st: SystemTable<Boot>) -> Status {
     let bootinfo = BootInfo {
         memory_map,
         physical_memory_offset: config.physical_memory_offset,
-        graphic_info,
+        //graphic_info,
         acpi2_rsdp_addr: acpi2_addr as u64,
         smbios_addr: smbios_addr as u64,
         initramfs_addr,
